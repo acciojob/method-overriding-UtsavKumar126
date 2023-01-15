@@ -1,10 +1,12 @@
 package com.driver;
 
 public class Main {
-    B b=new B();
+    public static void main(String[] args) {
+        B b=new B();
 
-    String k= b.meth();
-    String c= b.meth();
+        String k= b.meth();
+        String c= b.meth();
+    }
 
 }
 class A{
